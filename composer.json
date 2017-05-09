@@ -1,0 +1,39 @@
+{
+    "name": "adzon/Baidu-tongji-api",
+    "description": "百度统计API",
+    "homepage": "https://github.com/adzon/Baidu-tongji-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adzon",
+            "email": "76762@qq.com",
+            "homepage": "http://www.huleping.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0",
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Baidu\\Tongji\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Baidu\\Tongji\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
